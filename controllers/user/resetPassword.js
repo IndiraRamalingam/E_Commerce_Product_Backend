@@ -32,7 +32,7 @@ const resetPassword = {
       );
 
       //  let link = `http://localhost:5173/reset_password/${token}`;
-      let link = `https://e-commerce-babyshop.netlify.app/reset_password/${token}`;
+      let link = `https://e-commerce-product-fe.netlify.app/reset_password/${token}`;
 
       await sendMail(userDB.email, "URL Shortener App - Reset your password ", `Hello!!, You have requested to reset your password.
 
